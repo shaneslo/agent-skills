@@ -1,0 +1,13 @@
+# Core orchestration
+langgraph>=0.2.50
+langchain>=0.3.0
+langchain-core>=0.3.0
+# Default provider (model abstraction routes through an AI Gateway base_url)
+langchain-anthropic>=0.3.0
+# Typed state
+pydantic>=2.7
+# Deterministic ingestion
+python-pptx>=0.6.23
+pdfplumber>=0.11.0
+# Deterministic assembly
+jinja2>=3.1
