@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-workflow-and-versioning",
+  "type": "registry:item",
+  "title": "Git Workflow And Versioning",
+  "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/git-workflow-and-versioning/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/git-workflow-and-versioning/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/code-review-and-quality"
+  ]
+}

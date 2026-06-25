@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "security-and-hardening",
+  "type": "registry:item",
+  "title": "Security And Hardening",
+  "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/security-and-hardening/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/security-and-hardening/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/security-checklist"
+  ]
+}

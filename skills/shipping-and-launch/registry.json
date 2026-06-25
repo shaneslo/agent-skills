@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shipping-and-launch",
+  "type": "registry:item",
+  "title": "Shipping And Launch",
+  "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/shipping-and-launch/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/shipping-and-launch/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/security-checklist",
+    "@agent-skills/performance-checklist",
+    "@agent-skills/accessibility-checklist"
+  ]
+}

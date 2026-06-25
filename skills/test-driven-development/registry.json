@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "test-driven-development",
+  "type": "registry:item",
+  "title": "Test Driven Development",
+  "description": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/test-driven-development/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/test-driven-development/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/browser-testing-with-devtools",
+    "@agent-skills/testing-patterns"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "api-and-interface-design",
+  "type": "registry:item",
+  "title": "Api And Interface Design",
+  "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/api-and-interface-design/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/api-and-interface-design/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/deprecation-and-migration"
+  ]
+}

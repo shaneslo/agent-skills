@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "frontend-ui-engineering",
+  "type": "registry:item",
+  "title": "Frontend Ui Engineering",
+  "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/frontend-ui-engineering/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/frontend-ui-engineering/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/accessibility-checklist"
+  ]
+}
