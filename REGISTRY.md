@@ -10,12 +10,31 @@ and can edit them.
 
 ## Install
 
+shadcn resolves a namespaced item (`@agent-skills/<item>`) from a registry URL you configure
+once. Add the namespace to your `components.json`:
+
+```json
+{
+  "registries": {
+    "@agent-skills": "https://raw.githubusercontent.com/shaneslo/agent-skills/main/r/{name}.json"
+  }
+}
+```
+
+> The `{name}.json` template must serve **one JSON file per item**. The manifests in this repo
+> (`registry.json` and `skills/<name>/registry.json`) are the *source* — run `shadcn build` to
+> emit the flat per-item files (`r/<name>.json`) and host them at the path above. Until that
+> build/host step exists, the commands below won't resolve; this registry is currently the
+> source definition, not a live endpoint.
+
+Then install:
+
 ```bash
 # one capability (pulls its registryDependencies automatically)
-npx shadcn add @agent-skills//code-review-and-quality
+npx shadcn add @agent-skills/code-review-and-quality
 
 # the whole skill library (the meta-skill depends on every skill)
-npx shadcn add @agent-skills//using-agent-skills
+npx shadcn add @agent-skills/using-agent-skills
 ```
 
 Each item installs into conventional Claude Code locations:
