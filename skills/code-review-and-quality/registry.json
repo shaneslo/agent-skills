@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "code-review-and-quality",
+  "type": "registry:item",
+  "title": "Code Review And Quality",
+  "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/code-review-and-quality/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/code-review-and-quality/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/security-and-hardening",
+    "@agent-skills/performance-optimization",
+    "@agent-skills/security-checklist",
+    "@agent-skills/performance-checklist"
+  ]
+}

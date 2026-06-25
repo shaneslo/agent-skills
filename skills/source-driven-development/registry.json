@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "source-driven-development",
+  "type": "registry:item",
+  "title": "Source Driven Development",
+  "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/source-driven-development/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/source-driven-development/SKILL.md"
+    }
+  ]
+}

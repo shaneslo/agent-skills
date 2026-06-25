@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "documentation-and-adrs",
+  "type": "registry:item",
+  "title": "Documentation And Adrs",
+  "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/documentation-and-adrs/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/documentation-and-adrs/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ci-cd-and-automation",
+  "type": "registry:item",
+  "title": "Ci Cd And Automation",
+  "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/ci-cd-and-automation/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/ci-cd-and-automation/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/debugging-and-error-recovery"
+  ]
+}

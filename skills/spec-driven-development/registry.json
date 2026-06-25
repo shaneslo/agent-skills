@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spec-driven-development",
+  "type": "registry:item",
+  "title": "Spec Driven Development",
+  "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/spec-driven-development/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/spec-driven-development/SKILL.md"
+    }
+  ],
+  "registryDependencies": [
+    "@agent-skills/incremental-implementation",
+    "@agent-skills/test-driven-development",
+    "@agent-skills/context-engineering"
+  ]
+}

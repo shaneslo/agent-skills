@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "deprecation-and-migration",
+  "type": "registry:item",
+  "title": "Deprecation And Migration",
+  "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/deprecation-and-migration/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/deprecation-and-migration/SKILL.md"
+    }
+  ]
+}

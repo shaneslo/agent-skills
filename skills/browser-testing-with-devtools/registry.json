@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "browser-testing-with-devtools",
+  "type": "registry:item",
+  "title": "Browser Testing With Devtools",
+  "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+  "author": "agent-skills",
+  "files": [
+    {
+      "path": "skills/browser-testing-with-devtools/SKILL.md",
+      "type": "registry:file",
+      "target": ".claude/skills/browser-testing-with-devtools/SKILL.md"
+    }
+  ]
+}
