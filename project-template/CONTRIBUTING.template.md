@@ -28,7 +28,8 @@ workflow is muscle memory, not a per-project puzzle.
 
 - Small and reviewable beats big and comprehensive. Split when you can.
 - PR description says: what changed, why, and how you verified it.
-- Green CI (tests + lint) before requesting review — see [docs/testing.md](docs/testing.md).
+- Green CI (tests + lint) before requesting review — run the same entrypoint CI
+  does (e.g. `make validate && make test`) locally first. See [docs/testing.md](docs/testing.md).
 - Link the issue it closes.
 
 ## Review
