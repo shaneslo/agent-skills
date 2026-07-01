@@ -24,6 +24,9 @@
    isolates environment/platform/harness specifics so the core stays clean. -->
 4. **Mechanical enforcement with remediation hints.** <!-- FILL: how the rules are
    enforced automatically, and that every failure names its concrete fix. -->
+5. **Progressive disclosure.** <!-- FILL: entry/context docs stay short (set a line
+   or byte budget); detail offloads to `docs/` and is loaded on demand, not
+   pre-injected. Delete if this project has no such layering. -->
 
 ## Component overview
 
@@ -74,8 +77,17 @@
 
 <!-- The core building blocks and the contract each must satisfy: where they live,
      their required frontmatter / interface / public API, and how they are
-     discovered or composed. Keep the contract here; push authoring detail to a
-     dedicated docs/ guide. -->
+     discovered or composed. State the contract here; push authoring detail to a
+     dedicated docs/ guide. Shape (adapt to this project's unit — a plugin, a
+     service module, a package): -->
+
+- **Unit:** `{{SOURCE_DIR}}/<name>/` — <!-- the discoverable/composable unit -->
+- **Required contract:** <!-- FILL: e.g. frontmatter with `name` + `description`;
+  or an exported interface; or a manifest file. What makes it valid? -->
+- **Discovery:** <!-- FILL: how the system finds these — directory scan, registry
+  file, import graph. -->
+- **Naming:** <!-- FILL: `lowercase-hyphen-separated`, file casing, etc. -->
+- **Authoring guide:** <!-- link to docs/<guide>.md; don't inline the full spec -->
 
 ## Model tiers
 

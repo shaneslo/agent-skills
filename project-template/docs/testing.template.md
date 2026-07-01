@@ -5,10 +5,14 @@ that anyone can run the suite in one command and trust a green result.
 
 ## How to run the tests
 
+Prefer a **single canonical entrypoint** (e.g. `make test`, `make validate`) that
+CI and humans both call, so "how do I run this" has one answer. Keep the raw
+runner commands below it for when you need to narrow scope.
+
 ```bash
 # FILL: the single command that runs everything. This must work from a clean
 # checkout after setup. Add the narrower commands below it.
-# all:
+# all:            make test
 # one file/suite:
 # with coverage:
 # watch:
@@ -35,6 +39,9 @@ that anyone can run the suite in one command and trust a green result.
   should survive a safe refactor.
 - Mock at boundaries only; never assert on things you can't control (wall-clock,
   network, generated text). Prefer deterministic inputs.
+- **Every failure names its fix.** Lint/validator errors should print the concrete
+  remediation ("rename X to Y", "add field Z"), not just "invalid" — a check that
+  doesn't tell you how to fix it costs the reader a debugging session.
 
 ## Coverage expectations
 

@@ -42,3 +42,23 @@ by default instead of reinvented each time.
   something goes, it goes in the doc named after the question.
 - **Templates are scaffolds, not essays.** Keep them skimmable. A section that
   can't be filled in a few lines probably wants its own doc under `docs/`.
+
+## Principles worth keeping (baked into these files)
+
+These conventions — drawn from repos worth imitating (`wshobson/agents`,
+`addyosmani/agent-skills`) — are the *why* behind the template's shape. Keep them
+as you fill it in:
+
+- **Single source of truth.** Author content in one place; generate everything
+  else from it. Never hand-edit generated artifacts. (`ARCHITECTURE.md` §Invariants)
+- **Progressive disclosure.** Entry docs stay short and point outward; detail
+  lives in `docs/` and is read on demand. If `README.md` or `ARCHITECTURE.md`
+  stops being skimmable, move detail down, don't pad up.
+- **Mechanical enforcement with fix-hints.** Prefer a check over a guideline, and
+  make every check print its concrete remediation, not just "invalid".
+  (`docs/testing.md`, `CONTRIBUTING.md`)
+- **One canonical entrypoint per task.** `make test` / `make validate` — CI and
+  humans call the same command, so "how do I run this?" has exactly one answer.
+- **Invariants first.** Lead the architecture doc with the non-negotiable rules,
+  then map the components. A reader should learn what *can't* change before how it
+  works.
